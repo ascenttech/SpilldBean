@@ -23,6 +23,8 @@ public class LandingActivity extends Activity {
         webSettings = mWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         mWebView.loadUrl(url);
+
+        // just check
     }
 
     @Override
